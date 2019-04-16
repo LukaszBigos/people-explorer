@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.single-person {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 17rem;
+  background-color: #eee;
+  transition: all .3s linear;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+
+.single-person img {
+  border-radius: 50%;
+  border: 0.1rem solid teal;
+}
+
+.single-person h4 {
+  text-transform: capitalize;
+  margin: 0.5rem 0; 
+  letter-spacing: 0.15rem;
+  color: teal;
+}
+
+.single-person:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
